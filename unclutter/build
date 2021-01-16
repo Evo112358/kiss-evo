@@ -1,0 +1,5 @@
+#!/bin/sh -e
+
+patch -p1 < no-man.patch
+make
+make PREFIX=/usr DESTDIR="$1" install
