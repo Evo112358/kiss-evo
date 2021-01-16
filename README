@@ -6,14 +6,14 @@ Currently Contains:
 -------------------
 
  * Unclutter/
- 	- with a patch to remove asciidoc make requirement.
- 	- no man support at this stage.
+  - with a patch to remove asciidoc make requirement.
+  - no man support at this stage.
 
  * Alt/
- 	* Asciidoc/
- 		- make dependancy for unclutter.
- 		- requires xsltproc for a2x.
- 			- requires libxml2{base,devel}, and libxslt{base,devel} for a2x.
-
- 	* Unclutter/
- 		- testing branch of unclutter to try and keep man support.
+  * Asciidoc/
+   - make dependancy for unclutter.
+   - requires xsltproc for a2x.
+    - requires libxml2{base,devel},
+	  and libxslt{base,devel} for a2x.
+  * Unclutter/
+   - testing branch of unclutter to try and keep man support.
